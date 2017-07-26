@@ -9,6 +9,16 @@ using namespace std;
 2.遇到符号时，若栈内为空直接填入。
 3.判断所持符号与栈顶符号的优先级关系“（”最高，若所持优先级小于或等于栈顶符号，则一直出栈并输出。
 
+栈的用法：
+curStack.empty()　　　　　　如果栈为空返回true，否则返回false；
+
+curStack.size()　　　　　　　 返回栈内元素的大小；
+
+curStack.pop()　　　　　　　从栈顶弹出一个成员；
+
+curStack.push()　　　　　　 向栈内压入一个成员；
+
+curStack.top()　　　　　　   返回栈顶，但不删除成员；
 问题 ： 关于括号的问题暂时还没有 处理
 */
 
